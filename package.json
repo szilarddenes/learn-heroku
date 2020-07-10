@@ -1,0 +1,26 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "watch": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "deploy": "gh-pages -d"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://szdenes.github.io/learnjs/todo-app",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "gh-pages": "^3.1.0",
+    "mongodb": "^3.5.9",
+    "mongoose": "^5.9.22",
+    "nodemon": "^2.0.4",
+    "sanitize-html": "^1.27.0"
+  },
+  "devDependencies": {}
+}
